@@ -9,6 +9,7 @@ spring.kafka:
       group-id: ${random.uuid}
       key-deserializer: "io.confluent.kafka.serializers.KafkaAvroDeserializer"
       value-deserializer: "io.confluent.kafka.serializers.KafkaAvroDeserializer"
+      auto-offset-reset: earliest
 
     producer:
       key-serializer: "io.confluent.kafka.serializers.KafkaAvroSerializer"
