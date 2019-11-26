@@ -1,6 +1,8 @@
 a simple project to show how to use reproduce a bug with spring-dev-tools:
 https://github.com/spring-projects/spring-boot/issues/14622
 
+Update: Delegated to upstream issue: https://issues.apache.org/jira/browse/AVRO-1425
+
 # Steps to reproduce
 
 ## Run Kafka
